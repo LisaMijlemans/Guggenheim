@@ -1,0 +1,24 @@
+<% include header %>
+<% include nav %>
+
+<h1>OVERVIEW EXHIBITIONS</h1>
+
+  <% var teller = 1; %>
+  <% tentoonstellingen.forEach(function(item){ %>
+    <section>
+        <img src="/img/<%- item.afbeelding1 %>" alt="<%- item.titel %>">
+        <h2>
+          <a href=/items/<%- item.id %>><%- item.titel %></a>
+        </h2>
+        <p class="samenvatting">
+          <%- item.samenvatting %>
+        </p>
+
+
+
+
+    </section>
+    <% teller++;}); %>
+
+
+<% include footer %>

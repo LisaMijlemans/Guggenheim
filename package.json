@@ -1,0 +1,26 @@
+{
+  "name": "mobiel-museum-demo",
+  "version": "1.0.0",
+  "description": "Mobiele museumsite",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "web",
+    "museum",
+    "technology",
+    "node",
+    "express"
+  ],
+  "author": "Lisa Mijlemans",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  }
+}

@@ -1,0 +1,220 @@
+body {
+  font-family: helvetica;
+  width: 100%;
+  background-color: white;
+}
+
+img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+}
+
+p {
+  margin-left: 5%;
+  margin-bottom: 1%;
+  margin-right: 5%;
+  line-height: 1.2em;
+}
+.tekst{
+  margin-bottom: 10%;
+}
+
+h1{
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  border: 4px solid red;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+h1:hover{
+  color: red;
+  cursor: pointer;
+}
+
+h3 {
+  display: inline;
+}
+
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+h2 {
+  margin-top: 6%;
+  margin-left: 5%;
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+a:hover{
+  text-decoration: underline;
+  color: red;
+}
+
+.footer{
+  position:fixed;
+  left:0px;
+  bottom:-10px;
+  width:100%;
+  margin-left: 0px;
+  background: red;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: white;
+}
+.footer a{
+  color: white;
+}
+section{
+  margin-bottom: 20%;
+}
+.cat{
+  margin-bottom: 50px;
+  color: red;
+  font-weight: 800;
+}
+.categ{
+  margin-top: 20px;
+  color: red;
+}
+.categ a{
+  color: red;
+  font-size: 0.8em;
+}
+
+.samenvatting{
+  margin-top: 4%;
+}
+.datum{
+  font-size: 0.85em;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+ul a{
+  display: block;
+  font-size: 0.8em;
+}
+ul{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+h4{
+  border: 5px solid red;
+  text-align: center;
+  padding: 5%;
+  font-size: 1.25em;
+  font-weight: bold;
+
+}
+
+#disqus_thread{
+  margin-top: 20%;
+}
+
+
+/* nav */
+.menu{
+    display: none;
+  }
+
+  #logo2 img{
+    display: block;
+    width: 160px;
+    height: 120px;
+    float: center;
+    margin: auto;
+    margin-top: -20px;
+  }
+
+  nav{
+    display: block;
+  }
+
+.navigation {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  list-style: none;
+  background: black;
+}
+
+.nav-item {
+  width: 200px;
+  border-top: 2px solid #111;
+  border-bottom: 2px solid #000;
+  font-size: 0.7em;
+}
+
+.nav-item a {
+  display: block;
+  padding: 0.8em;
+  color: white;
+  font-size: 1.1em;
+  text-decoration: none;
+  transition: color 0.2s;
+
+}
+
+.nav-item a:hover {
+  color: black;
+  background: white;
+}
+
+.site-wrap {
+  min-height: 100%;
+  min-width: 100%;
+  background-color: white;
+  position: relative;
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  z-index: 1;
+  padding : 3em;
+}
+
+.nav-trigger {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+label[for="nav-trigger"] {
+  position: fixed;
+  left: 22px; top: 20px;
+  z-index: 2;
+  height: 30px;
+  width: 30px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+}
+
+.nav-trigger + label, .site-wrap {
+  transition: left 0.2s;
+}
+
+.nav-trigger:checked + label {
+  left: 220px;
+}
+
+.nav-trigger:checked ~ .site-wrap {
+  left: 200px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+*,*:before,*:after{box-sizing:border-box;margin:0;padding:0;}
