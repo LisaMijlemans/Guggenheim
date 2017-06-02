@@ -17,6 +17,7 @@ p {
   margin-bottom: 1%;
   margin-right: 5%;
   line-height: 1.2em;
+  font-size: 0.9;
 }
 .tekst{
   margin-bottom: 10%;
@@ -50,7 +51,7 @@ a{
 h2 {
   margin-top: 6%;
   margin-left: 5%;
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: bold;
   margin-bottom: 3%;
 }
